@@ -1,0 +1,151 @@
+header{
+    float: left;
+    background:#000;
+    width: 100%;
+    float: left;
+}
+header a{
+    color: #fff;
+    cursor: pointer;
+
+}
+header a:hover{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width:150px;
+}
+.menu{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.menu li{
+    float: left;
+    margin-left: 10px;
+}
+.social{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+.social li{
+    float: left;
+    margin-left: 10px;
+}
+.social li a{
+    font-size: 30px;
+}
+#trigger_menu{
+    float: right;
+    font-size: 30px;
+    display: none;
+    margin-left: 10px;
+}
+main{
+    min-height: 500px;
+    float: left;
+    width: 100%;
+}
+footer{
+    background:#000;
+    width:100%;
+    padding:20px;
+    float: left;
+}
+#close_menu{
+    float: right;
+    font-size: 30px;
+    display: none;
+}
+.logo_mobile{
+    width: 200px;
+    display: block;
+    margin:10px auto
+}
+.no_border_bottom{
+    border-bottom: none !important;
+}
+.form_mobile{
+    position: relative;
+    display: none;
+}
+.form_mobile button{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 45px;
+    top: 12px;
+}
+.logo_mobile{
+    display: none;
+}
+    /*==========  MEDIAQUERIES  ==========*/
+
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    @media only screen and (max-width : 992px) {
+        
+    }
+
+    @media only screen and (max-width : 768px) {
+        .menu{
+            display: none;
+            position: fixed;
+            top: -15px;
+            left: 0;
+            background: #fff;
+            width: 100%;
+            padding: 0;
+            z-index: 2;
+        }
+        .menu li{
+            width: 100%;
+            padding: 1% 5%;
+            border-bottom: 1px solid #e0dfdf;
+            margin:0;
+        }
+        .menu li a{
+            color: #828282;
+        }
+        #trigger_menu{
+            display: block;
+        }
+        .form_mobile{
+            display: block;
+        }
+        .logo_mobile{
+            display: block;
+        }
+        #close_menu{
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width : 480px) {
+        #trigger_menu{
+            font-size: 25px;
+            margin-top: 5px;
+        }
+        .social{
+            margin-top: 5px;
+        }
+        .social li a{
+            font-size: 25px;
+        }
+    }
+
+    @media only screen and (max-width : 320px) {
+
+    }
