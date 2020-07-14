@@ -1,13 +1,13 @@
 header{
-    float: left;
+    position: fixed;
+    z-index: 2;
     background:#000;
     width: 100%;
-    float: left;
+    height: 50px;
 }
 header a{
     color: #fff;
     cursor: pointer;
-
 }
 header a:hover{
     color: #fff;
@@ -55,6 +55,7 @@ main{
     min-height: 500px;
     float: left;
     width: 100%;
+    padding-top: 50px;
 }
 footer{
     background:#000;
